@@ -1,206 +1,248 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Accommodation | Tiger Aura Resort</title>
-  <meta name="description" content="Choose from our collection of luxury rooms — Premium Room, Elite Room, and Private Jacuzzi Duplex. Each offering comfort, elegance, and nature views.">
-  <link rel="stylesheet" href="css/styles.css">
-  <style>
-    @media(max-width:1024px){.room-section-grid{grid-template-columns:1fr!important;}}
-    @media(max-width:900px){.grid-collapse{grid-template-columns:1fr!important;}}
-  </style>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Accommodation | Tiger Aura Resort</title>
+ <meta name="description" content="Choose from four room categories at Tiger Aura Resort: Executive Room, Premium Room With Balcony, Elite Room with Balcony, and Duplex Room With Jacuzzi.">
+ <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 <header id="navbar" class="navbar">
-  <div class="container"><div class="navbar-inner">
-    <a href="index.html" class="navbar-logo"><div class="navbar-logo-inner"><img src="img/logo.png" alt="" class="logo-mark"><div class="navbar-logo-text"><span class="logo-name">TIGER AURA</span><span class="logo-resort">RESORT</span></div></div></a>
-    <nav><ul class="nav-links"><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="accommodation.html">Accommodation</a></li><li><a href="experiences.html">Experiences</a></li><li><a href="dining.html">Dining</a></li><li><a href="events.html">Events</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="contact.html">Contact Us</a></li></ul></nav>
-    <div class="navbar-actions"><a href="tel:+919876543210" class="navbar-phone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>+91 98765 43210</a><a href="booking.html" class="btn-booknow">Book Now</a></div>
-    <button id="hamburger" class="hamburger" aria-label="Open menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
-  </div></div>
+ <div class="container"><div class="navbar-inner">
+ <a href="index.html" class="navbar-logo"><div class="navbar-logo-inner"><img src="img/logo.png" alt="" class="logo-mark"><div class="navbar-logo-text"><span class="logo-name">TIGER AURA</span><span class="logo-resort">RESORT</span></div></div></a>
+ <nav><ul class="nav-links"><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="accommodation.html">Accommodation</a></li><li><a href="experiences.html">Experiences</a></li><li><a href="dining.html">Dining</a></li><li><a href="events.html">Events</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="contact.html">Contact Us</a></li></ul></nav>
+ <div class="navbar-actions"><a href="tel:+918796231101" class="navbar-phone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>+91 87962 31101</a><a href="booking.html" class="btn-booknow">Book Now</a></div>
+ <button id="hamburger" class="hamburger" aria-label="Open menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
+ </div></div>
 </header>
 <div id="mobile-menu" class="mobile-menu">
-  <div class="mobile-menu-header"><div class="mobile-menu-logo"><img src="img/logo.png" alt="" class="logo-mark"><div class="navbar-logo-text"><span class="logo-name">TIGER AURA</span><span class="logo-resort">RESORT</span></div></div><button id="mobile-close" class="mobile-close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button></div>
-  <nav class="mobile-nav"><a href="index.html">Home</a><a href="about.html">About Us</a><a href="accommodation.html">Accommodation</a><a href="experiences.html">Experiences</a><a href="dining.html">Dining</a><a href="events.html">Events</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact Us</a></nav>
-  <div class="mobile-cta"><a href="tel:+919876543210" class="mobile-phone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>+91 98765 43210</a><a href="booking.html" class="btn btn-gold" style="text-align:center;padding:.875rem 2rem;">Book Your Stay</a></div>
+ <div class="mobile-menu-header"><div class="mobile-menu-logo"><img src="img/logo.png" alt="" class="logo-mark"><div class="navbar-logo-text"><span class="logo-name">TIGER AURA</span><span class="logo-resort">RESORT</span></div></div><button id="mobile-close" class="mobile-close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button></div>
+ <nav class="mobile-nav"><a href="index.html">Home</a><a href="about.html">About Us</a><a href="accommodation.html">Accommodation</a><a href="experiences.html">Experiences</a><a href="dining.html">Dining</a><a href="events.html">Events</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact Us</a></nav>
+ <div class="mobile-cta"><a href="tel:+918796231101" class="mobile-phone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>+91 87962 31101</a><a href="booking.html" class="btn btn-gold" style="text-align:center;padding:.875rem 2rem;">Book Your Stay</a></div>
 </div>
 
 <main>
 <section class="page-hero">
-  <div class="page-hero-bg" style="background-image:url('https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=1920&q=80')"></div>
-  <div class="page-hero-overlay"></div>
-  <div class="page-hero-content">
-    <span class="section-label" style="color:var(--gold);margin-bottom:1rem;display:block;">Accommodation</span>
-    <h1 class="page-hero-title">Your Home<em>in the Wild</em></h1>
-    <p class="page-hero-subtitle">61 thoughtfully designed rooms — each a sanctuary of comfort and elegance</p>
-    <div class="page-hero-divider"></div>
-  </div>
+ <div class="page-hero-bg" style="background-image:url('https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=1920&q=80')"></div>
+ <div class="page-hero-overlay"></div>
+ <div class="page-hero-content">
+ <span class="section-label" style="color:var(--gold);margin-bottom:1rem;display:block;">Accommodation</span>
+ <h1 class="page-hero-title">Your Home<em>in the Wild</em></h1>
+ <p class="page-hero-subtitle">61 thoughtfully designed rooms, each a sanctuary of comfort and elegance</p>
+ <div class="page-hero-divider"></div>
+ </div>
 </section>
 
 <!-- Room Nav -->
 <nav class="room-nav">
-  <div class="container"><div class="room-nav-inner">
-    <a href="#premium">Premium Room</a>
-    <a href="#elite">Elite Room</a>
-    <a href="#jacuzzi">Private Jacuzzi Duplex</a>
-  </div></div>
+ <div class="container"><div class="room-nav-inner">
+ <a href="#executive">Executive Room</a>
+ <a href="#premium">Premium Room With Balcony</a>
+ <a href="#elite">Elite Room with Balcony</a>
+ <a href="#duplex">Duplex Room With Jacuzzi</a>
+ </div></div>
 </nav>
 
-<!-- Premium Room -->
-<section id="premium" class="section" style="background:var(--cream);">
-  <div class="container">
-    <div class="room-section-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start;">
-      <div class="animate-on-scroll">
-        <div class="room-main-img">
-          <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=1200&q=80" alt="Premium Room">
-          <div class="room-img-tag">Elegant Comfort</div>
-        </div>
-        <div class="room-gallery-mini">
-          <div class="room-mini-img"><img src="https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=600&q=80" alt="Premium Room View 2"></div>
-          <div class="room-mini-img"><img src="https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=600&q=80" alt="Premium Room View 3"></div>
-        </div>
-      </div>
-      <div class="animate-on-scroll">
-        <span class="section-label mb-3" style="display:block;">Room Type 01</span>
-        <h2 class="section-h2" style="margin-top:.5rem;margin-bottom:1rem;">Premium Room</h2>
-        <div class="divider-gold-left"></div>
-        <p style="color:var(--sage);line-height:1.7;margin-bottom:1.5rem;font-size:.9375rem;">Our Premium Rooms are thoughtfully designed spaces that offer a perfect blend of contemporary elegance and natural warmth. Each room features plush bedding, warm lighting, and curated decor that brings the outdoors in.</p>
-        <div class="room-stats">
-          <div><p style="font-size:.6rem;text-transform:uppercase;letter-spacing:.1em;color:var(--sage);margin-bottom:.25rem;">Occupancy</p><div class="room-stat-value"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>2 Adults</div></div>
-          <div><p style="font-size:.6rem;text-transform:uppercase;letter-spacing:.1em;color:var(--sage);margin-bottom:.25rem;">Room Size</p><p style="color:var(--forest-dark);font-size:.875rem;font-weight:500;">320 sq ft</p></div>
-        </div>
-        <div style="margin-bottom:2rem;">
-          <h4 style="font-size:.65rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem;">Room Amenities</h4>
-          <div class="amenities-grid">
-            <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>King/Twin beds</div>
-            <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>High-speed WiFi</div>
-            <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Air Conditioning</div>
-            <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Smart TV</div>
-            <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Coffee Maker</div>
-            <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>En-suite Bathroom</div>
-            <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Garden View</div>
-            <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Daily Housekeeping</div>
-            <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>24-Hour Room Service</div>
-            <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Complimentary Toiletries</div>
-          </div>
-        </div>
-        <div class="room-price-box">
-          <div><div class="room-tariff-label">Tariff</div><div class="room-tariff-price">Starting from ₹6,500 / night</div></div>
-          <a href="booking.html" class="btn btn-forest" style="display:inline-flex;align-items:center;gap:.5rem;">Book Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:13px;height:13px;"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
-        </div>
-      </div>
-    </div>
-  </div>
+<!-- Executive Room -->
+<section id="executive" class="section" style="background:var(--cream);">
+ <div class="container">
+ <div class="room-section-grid">
+ <div class="animate-on-scroll">
+ <div class="room-main-img">
+ <img src="img/executive1.webp" alt="Executive Room">
+ <div class="room-img-tag">Smart Comfort</div>
+ </div>
+ <div class="room-gallery-mini">
+ <div class="room-mini-img"><img src="img/executive2.webp" alt="Executive Room View 2"></div>
+ <div class="room-mini-img"><img src="img/executive3.webp" alt="Executive Room View 3"></div>
+ </div>
+ </div>
+ <div class="animate-on-scroll">
+ <span class="section-label mb-3" style="display:block;">Room Type 01</span>
+ <h2 class="section-h2" style="margin-top:.5rem;margin-bottom:1rem;">Executive Room</h2>
+ <div class="divider-gold-left"></div>
+ <p style="color:var(--sage);line-height:1.7;margin-bottom:1.5rem;font-size:.9375rem;">Our Executive Rooms offer a comfortable and well-appointed retreat with all the essentials for a relaxing stay amid nature. Ideal for business travellers and couples seeking value without compromising on quality.</p>
+ <div class="room-stats">
+ <div><p style="font-size:.6rem;text-transform:uppercase;letter-spacing:.1em;color:var(--sage);margin-bottom:.25rem;">Occupancy</p><div class="room-stat-value"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>2 Adults</div></div>
+ <div><p style="font-size:.6rem;text-transform:uppercase;letter-spacing:.1em;color:var(--sage);margin-bottom:.25rem;">Room Size</p><p style="color:var(--forest-dark);font-size:.875rem;font-weight:500;">280 sq ft</p></div>
+ </div>
+ <div style="margin-bottom:2rem;">
+ <h4 style="font-size:.65rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem;">Room Amenities</h4>
+ <div class="amenities-grid">
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>King/Twin beds</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>High-speed WiFi</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Air Conditioning</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Smart TV</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>En-suite Bathroom</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Garden View</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Daily Housekeeping</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Complimentary Toiletries</div>
+ </div>
+ </div>
+ <div class="room-price-box">
+ <div><div class="room-tariff-label">Tariff</div><div class="room-tariff-price">Starting from ₹4,999 / night</div></div>
+ <a href="booking.html" class="btn btn-forest" style="display:inline-flex;align-items:center;gap:.5rem;">Book Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:13px;height:13px;"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+ </div>
+ </div>
+ </div>
+ </div>
 </section>
 
-<!-- Elite Room -->
-<section id="elite" class="section" style="background:#fff;">
-  <div class="container">
-    <div class="room-section-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start;">
-      <div class="animate-on-scroll" style="order:2;">
-        <div class="room-main-img">
-          <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1200&q=80" alt="Elite Room">
-          <div class="room-img-tag">Refined Luxury</div>
-        </div>
-        <div class="room-gallery-mini">
-          <div class="room-mini-img"><img src="https://images.unsplash.com/photo-1560185008-b033106af5c3?auto=format&fit=crop&w=600&q=80" alt="Elite Room View 2"></div>
-          <div class="room-mini-img"><img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=600&q=80" alt="Elite Room View 3"></div>
-        </div>
-      </div>
-      <div class="animate-on-scroll" style="order:1;">
-        <span class="section-label mb-3" style="display:block;">Room Type 02</span>
-        <h2 class="section-h2" style="margin-top:.5rem;margin-bottom:1rem;">Elite Room</h2>
-        <div class="divider-gold-left"></div>
-        <p style="color:var(--sage);line-height:1.7;margin-bottom:1.5rem;font-size:.9375rem;">Step into a world of refined luxury with our Elite Rooms. Featuring premium furnishings, enhanced amenities, and larger floor areas, these rooms are perfect for discerning travelers seeking an elevated experience.</p>
-        <div class="room-stats">
-          <div><p style="font-size:.6rem;text-transform:uppercase;letter-spacing:.1em;color:var(--sage);margin-bottom:.25rem;">Occupancy</p><div class="room-stat-value"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>2 Adults + 1 Child</div></div>
-          <div><p style="font-size:.6rem;text-transform:uppercase;letter-spacing:.1em;color:var(--sage);margin-bottom:.25rem;">Room Size</p><p style="color:var(--forest-dark);font-size:.875rem;font-weight:500;">420 sq ft</p></div>
-        </div>
-        <div style="margin-bottom:2rem;">
-          <h4 style="font-size:.65rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem;">Room Amenities</h4>
-          <div class="amenities-grid">
-            <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>King bed</div>
-            <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>High-speed WiFi</div>
-            <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Air Conditioning</div>
-            <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>42" Smart TV</div>
-            <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Mini Bar</div>
-            <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Bathtub &amp; Shower</div>
-            <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Forest/Garden View</div>
-            <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Turndown Service</div>
-            <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Premium Toiletries</div>
-            <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Complimentary Breakfast</div>
-          </div>
-        </div>
-        <div class="room-price-box">
-          <div><div class="room-tariff-label">Tariff</div><div class="room-tariff-price">Starting from ₹9,500 / night</div></div>
-          <a href="booking.html" class="btn btn-forest" style="display:inline-flex;align-items:center;gap:.5rem;">Book Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:13px;height:13px;"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
-        </div>
-      </div>
-    </div>
-  </div>
+<!-- Premium Room With Balcony -->
+<section id="premium" class="section" style="background:#fff;">
+ <div class="container">
+ <div class="room-section-grid">
+ <div class="animate-on-scroll" style="order:2;">
+ <div class="room-main-img">
+ <img src="img/premium1.webp" alt="Premium Room With Balcony">
+ <div class="room-img-tag">Elegant Comfort</div>
+ </div>
+ <div class="room-gallery-mini">
+ <div class="room-mini-img"><img src="img/premium2.webp" alt="Premium Room View 2"></div>
+ <div class="room-mini-img"><img src="img/premium3.webp" alt="Premium Room View 3"></div>
+ </div>
+ </div>
+ <div class="animate-on-scroll" style="order:1;">
+ <span class="section-label mb-3" style="display:block;">Room Type 02</span>
+ <h2 class="section-h2" style="margin-top:.5rem;margin-bottom:1rem;">Premium Room With Balcony</h2>
+ <div class="divider-gold-left"></div>
+ <p style="color:var(--sage);line-height:1.7;margin-bottom:1.5rem;font-size:.9375rem;">Our Premium Rooms With Balcony are thoughtfully designed spaces that blend contemporary elegance with natural warmth. Step onto your private balcony to enjoy fresh air and serene views of the surrounding greenery.</p>
+ <div class="room-stats">
+ <div><p style="font-size:.6rem;text-transform:uppercase;letter-spacing:.1em;color:var(--sage);margin-bottom:.25rem;">Occupancy</p><div class="room-stat-value"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>2 Adults</div></div>
+ <div><p style="font-size:.6rem;text-transform:uppercase;letter-spacing:.1em;color:var(--sage);margin-bottom:.25rem;">Room Size</p><p style="color:var(--forest-dark);font-size:.875rem;font-weight:500;">320 sq ft</p></div>
+ </div>
+ <div style="margin-bottom:2rem;">
+ <h4 style="font-size:.65rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem;">Room Amenities</h4>
+ <div class="amenities-grid">
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>King/Twin beds</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>High-speed WiFi</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Air Conditioning</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Smart TV</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Coffee Maker</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>En-suite Bathroom</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Private Balcony</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Garden View</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Daily Housekeeping</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>24-Hour Room Service</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Complimentary Toiletries</div>
+ </div>
+ </div>
+ <div class="room-price-box">
+ <div><div class="room-tariff-label">Tariff</div><div class="room-tariff-price">Starting from ₹5,499 / night</div></div>
+ <a href="booking.html" class="btn btn-forest" style="display:inline-flex;align-items:center;gap:.5rem;">Book Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:13px;height:13px;"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+ </div>
+ </div>
+ </div>
+ </div>
 </section>
 
-<!-- Jacuzzi Duplex -->
-<section id="jacuzzi" class="section" style="background:var(--cream);">
-  <div class="container">
-    <div class="room-section-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start;">
-      <div class="animate-on-scroll">
-        <div class="room-main-img">
-          <img src="https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1200&q=80" alt="Private Jacuzzi Duplex">
-          <div class="room-img-tag">The Ultimate Indulgence</div>
-        </div>
-        <div class="room-gallery-mini">
-          <div class="room-mini-img"><img src="https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=600&q=80" alt="Jacuzzi View 2"></div>
-          <div class="room-mini-img"><img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=600&q=80" alt="Jacuzzi View 3"></div>
-        </div>
-      </div>
-      <div class="animate-on-scroll">
-        <span class="section-label mb-3" style="display:block;">Room Type 03</span>
-        <h2 class="section-h2" style="margin-top:.5rem;margin-bottom:1rem;">Private Jacuzzi Duplex</h2>
-        <div class="divider-gold-left"></div>
-        <p style="color:var(--sage);line-height:1.7;margin-bottom:1.5rem;font-size:.9375rem;">Our crown jewel — the Private Jacuzzi Duplex is a two-level sanctuary of unparalleled luxury. The upper level features a master bedroom with panoramic views, while the lower level boasts a private jacuzzi, living area, and a personal terrace.</p>
-        <div class="room-stats">
-          <div><p style="font-size:.6rem;text-transform:uppercase;letter-spacing:.1em;color:var(--sage);margin-bottom:.25rem;">Occupancy</p><div class="room-stat-value"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>2 Adults</div></div>
-          <div><p style="font-size:.6rem;text-transform:uppercase;letter-spacing:.1em;color:var(--sage);margin-bottom:.25rem;">Room Size</p><p style="color:var(--forest-dark);font-size:.875rem;font-weight:500;">680 sq ft</p></div>
-        </div>
-        <div style="margin-bottom:2rem;">
-          <h4 style="font-size:.65rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem;">Room Amenities</h4>
-          <div class="amenities-grid">
-            <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Private Jacuzzi</div>
-            <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>King bed (upper level)</div>
-            <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>High-speed WiFi</div>
-            <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Dual AC Zones</div>
-            <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>55" Smart TV</div>
-            <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Full Bar Setup</div>
-            <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Rain Shower</div>
-            <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Private Terrace</div>
-            <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Butler Service</div>
-            <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Complimentary Breakfast</div>
-            <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Welcome Amenities</div>
-            <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Late Checkout</div>
-          </div>
-        </div>
-        <div class="room-price-box">
-          <div><div class="room-tariff-label">Tariff</div><div class="room-tariff-price">Starting from ₹16,500 / night</div></div>
-          <a href="booking.html" class="btn btn-forest" style="display:inline-flex;align-items:center;gap:.5rem;">Book Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:13px;height:13px;"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
-        </div>
-      </div>
-    </div>
-  </div>
+<!-- Elite Room with Balcony -->
+<section id="elite" class="section" style="background:var(--cream);">
+ <div class="container">
+ <div class="room-section-grid">
+ <div class="animate-on-scroll">
+ <div class="room-main-img">
+ <img src="img/elite1.webp" alt="Elite Room with Balcony">
+ <div class="room-img-tag">Refined Luxury</div>
+ </div>
+ <div class="room-gallery-mini">
+ <div class="room-mini-img"><img src="img/elite2.webp" alt="Elite Room View 2"></div>
+ <div class="room-mini-img"><img src="img/elite3.webp" alt="Elite Room View 3"></div>
+ </div>
+ </div>
+ <div class="animate-on-scroll">
+ <span class="section-label mb-3" style="display:block;">Room Type 03</span>
+ <h2 class="section-h2" style="margin-top:.5rem;margin-bottom:1rem;">Elite Room with Balcony</h2>
+ <div class="divider-gold-left"></div>
+ <p style="color:var(--sage);line-height:1.7;margin-bottom:1.5rem;font-size:.9375rem;">Step into refined luxury with our Elite Rooms with Balcony. Featuring premium furnishings, enhanced amenities, and a private balcony with stunning views, these rooms are perfect for discerning travelers seeking an elevated experience.</p>
+ <div class="room-stats">
+ <div><p style="font-size:.6rem;text-transform:uppercase;letter-spacing:.1em;color:var(--sage);margin-bottom:.25rem;">Occupancy</p><div class="room-stat-value"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>2 Adults + 1 Child</div></div>
+ <div><p style="font-size:.6rem;text-transform:uppercase;letter-spacing:.1em;color:var(--sage);margin-bottom:.25rem;">Room Size</p><p style="color:var(--forest-dark);font-size:.875rem;font-weight:500;">420 sq ft</p></div>
+ </div>
+ <div style="margin-bottom:2rem;">
+ <h4 style="font-size:.65rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem;">Room Amenities</h4>
+ <div class="amenities-grid">
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>King bed</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>High-speed WiFi</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Air Conditioning</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>42" Smart TV</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Mini Bar</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Bathtub &amp; Shower</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Private Balcony</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Forest/Garden View</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Turndown Service</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Premium Toiletries</div>
+ </div>
+ </div>
+ <div class="room-price-box">
+ <div><div class="room-tariff-label">Tariff</div><div class="room-tariff-price">Starting from ₹5,999 / night</div></div>
+ <a href="booking.html" class="btn btn-forest" style="display:inline-flex;align-items:center;gap:.5rem;">Book Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:13px;height:13px;"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+ </div>
+ </div>
+ </div>
+ </div>
 </section>
 
-<section class="cta-banner" style="background-image:url('https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1920&q=80');"><div class="cta-overlay"></div><div class="cta-content"><span class="section-label mb-5">Reserve Your Escape</span><h2 class="cta-title" style="margin-top:.75rem;">Your Perfect Retreat<em>Awaits You</em></h2><div style="width:3rem;height:1px;background:var(--gold);margin:0 auto 1.5rem;"></div><p class="cta-text">Escape to the wilderness of Jim Corbett. Book your stay at Tiger Aura Resort and experience the perfect balance of nature, luxury, and serenity.</p><div class="cta-btns"><a href="booking.html" class="btn btn-gold">Book Your Stay</a><a href="contact.html" class="btn btn-outline-white">Enquire Now</a></div></div></section>
+<!-- Duplex Room With Jacuzzi -->
+<section id="duplex" class="section" style="background:#fff;">
+ <div class="container">
+ <div class="room-section-grid">
+ <div class="animate-on-scroll" style="order:2;">
+ <div class="room-main-img">
+ <img src="img/duplex1.webp" alt="Duplex Room With Jacuzzi">
+ <div class="room-img-tag">The Ultimate Indulgence</div>
+ </div>
+ <div class="room-gallery-mini">
+ <div class="room-mini-img"><img src="img/duplex2.webp" alt="Jacuzzi View 2"></div>
+ <div class="room-mini-img"><img src="img/duplex3.webp" alt="Jacuzzi View 3"></div>
+ </div>
+ </div>
+ <div class="animate-on-scroll" style="order:1;">
+ <span class="section-label mb-3" style="display:block;">Room Type 04</span>
+ <h2 class="section-h2" style="margin-top:.5rem;margin-bottom:1rem;">Duplex Room With Jacuzzi</h2>
+ <div class="divider-gold-left"></div>
+ <p style="color:var(--sage);line-height:1.7;margin-bottom:1.5rem;font-size:.9375rem;">Our crown jewel, the Duplex Room With Jacuzzi is a two-level sanctuary of unparalleled luxury. The upper level features a master bedroom with panoramic views, while the lower level boasts a private jacuzzi, living area, and a personal terrace.</p>
+ <div class="room-stats">
+ <div><p style="font-size:.6rem;text-transform:uppercase;letter-spacing:.1em;color:var(--sage);margin-bottom:.25rem;">Occupancy</p><div class="room-stat-value"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>2 Adults</div></div>
+ <div><p style="font-size:.6rem;text-transform:uppercase;letter-spacing:.1em;color:var(--sage);margin-bottom:.25rem;">Room Size</p><p style="color:var(--forest-dark);font-size:.875rem;font-weight:500;">680 sq ft</p></div>
+ </div>
+ <div style="margin-bottom:2rem;">
+ <h4 style="font-size:.65rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem;">Room Amenities</h4>
+ <div class="amenities-grid">
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Private Jacuzzi</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>King bed (upper level)</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>High-speed WiFi</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Dual AC Zones</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>55" Smart TV</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Full Bar Setup</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Rain Shower</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Private Terrace</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Butler Service</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Welcome Amenities</div>
+ <div class="amenity-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Late Checkout</div>
+ </div>
+ </div>
+ <div class="room-price-box">
+ <div><div class="room-tariff-label">Tariff</div><div class="room-tariff-price">Starting from ₹7,999 / night</div></div>
+ <a href="booking.html" class="btn btn-forest" style="display:inline-flex;align-items:center;gap:.5rem;">Book Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:13px;height:13px;"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+ </div>
+ </div>
+ </div>
+ </div>
+</section>
+
+<section class="cta-banner" style="background-image:url('img/property1.webp');"><div class="cta-overlay"></div><div class="cta-content"><span class="section-label mb-5">Reserve Your Escape</span><h2 class="cta-title" style="margin-top:.75rem;">Your Perfect Retreat<em>Awaits You</em></h2><div style="width:3rem;height:1px;background:var(--gold);margin:0 auto 1.5rem;"></div><p class="cta-text">Escape to the wilderness of Jim Corbett. Book your stay at Tiger Aura Resort and experience the perfect balance of nature, luxury, and serenity.</p><div class="cta-btns"><a href="booking.html" class="btn btn-gold">Book Your Stay</a><a href="contact.html" class="btn btn-outline-white">Enquire Now</a></div></div></section>
 </main>
 
 <footer>
-  <div class="footer-main"><div class="container"><div class="footer-grid">
-    <div><div class="footer-logo-inner"><img src="img/logo.png" alt="" class="footer-logo-mark"><div class="footer-logo-text"><span class="footer-logo-name">TIGER AURA</span><span class="footer-logo-resort">RESORT</span></div></div><p class="footer-desc">Experience wilderness in luxury at Tiger Aura Resort, nestled amidst lush orchards and enchanting forests of Jim Corbett, Uttarakhand.</p><div class="footer-social"><a href="#" aria-label="Instagram" class="social-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a><a href="#" aria-label="Facebook" class="social-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a><a href="#" aria-label="YouTube" class="social-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a></div></div>
-    <div><p class="footer-col-title">Explore</p><ul class="footer-links"><li><a href="index.html"><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>Home</a></li><li><a href="about.html"><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>About Us</a></li><li><a href="accommodation.html"><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>Accommodation</a></li><li><a href="experiences.html"><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>Experiences</a></li><li><a href="dining.html"><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>Dining</a></li><li><a href="events.html"><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>Events</a></li><li><a href="gallery.html"><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>Gallery</a></li><li><a href="contact.html"><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>Contact Us</a></li></ul></div>
-    <div><p class="footer-col-title">Information</p><ul class="footer-links"><li><a href="booking.html"><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>Booking Information</a></li><li><a href="booking.html#cancellation"><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>Cancellation Policy</a></li><li><a href="privacy.html"><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>Privacy Policy</a></li><li><a href="terms.html"><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>Terms &amp; Conditions</a></li><li><a href="faqs.html"><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>FAQs</a></li><li><a href="contact.html#directions"><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>How To Reach</a></li><li><a href="careers.html"><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>Careers</a></li></ul></div>
-    <div><p class="footer-col-title">Contact</p><ul class="footer-contact-list"><li class="footer-contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg><a href="tel:+919876543210">+91 98765 43210</a></li><li class="footer-contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><a href="mailto:reservations@tigerauraresort.com">reservations@tigerauraresort.com</a></li><li class="footer-contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Chhoi Village, Ramnagar,<br>Jim Corbett, Uttarakhand,<br>India — 244715</span></li></ul><p class="footer-col-title">Newsletter</p><form class="newsletter-form" onsubmit="return false;"><input type="email" placeholder="Your email address" class="newsletter-input"><button type="submit" class="newsletter-btn">Join</button></form></div>
-  </div></div></div>
-  <div class="footer-bottom"><div class="container"><div class="footer-bottom-inner"><p class="footer-copy">© <span class="current-year"></span> Tiger Aura Resort. All rights reserved.</p><p class="footer-addr">Chhoi Village, Ramnagar, Jim Corbett, Uttarakhand, India</p></div></div></div>
+ <div class="footer-main"><div class="container"><div class="footer-grid">
+ <div><div class="footer-logo-inner"><img src="img/logo.png" alt="" class="footer-logo-mark"><div class="footer-logo-text"><span class="footer-logo-name">TIGER AURA</span><span class="footer-logo-resort">RESORT</span></div></div><p class="footer-desc">Experience wilderness in luxury at Tiger Aura Resort, nestled amidst lush orchards and enchanting forests of Jim Corbett, Uttarakhand.</p><div class="footer-social"><a href="#" aria-label="Instagram" class="social-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a><a href="#" aria-label="Facebook" class="social-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a><a href="#" aria-label="YouTube" class="social-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a></div></div>
+ <div><p class="footer-col-title">Explore</p><ul class="footer-links"><li><a href="index.html"><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>Home</a></li><li><a href="about.html"><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>About Us</a></li><li><a href="accommodation.html"><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>Accommodation</a></li><li><a href="experiences.html"><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>Experiences</a></li><li><a href="dining.html"><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>Dining</a></li><li><a href="events.html"><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>Events</a></li><li><a href="gallery.html"><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>Gallery</a></li><li><a href="contact.html"><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>Contact Us</a></li></ul></div>
+ <div><p class="footer-col-title">Information</p><ul class="footer-links"><li><a href="booking.html"><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>Booking Information</a></li><li><a href="booking.html#cancellation"><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>Cancellation Policy</a></li><li><a href="privacy.html"><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>Privacy Policy</a></li><li><a href="terms.html"><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>Terms &amp; Conditions</a></li><li><a href="faqs.html"><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>FAQs</a></li><li><a href="contact.html#directions"><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>How To Reach</a></li><li><a href="careers.html"><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>Careers</a></li></ul></div>
+ <div><p class="footer-col-title">Contact</p><ul class="footer-contact-list"><li class="footer-contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg><a href="tel:+918796231101">+91 87962 31101</a></li><li class="footer-contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><a href="mailto:info@tigerauraresort.com">info@tigerauraresort.com</a></li><li class="footer-contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Chhoi Village, Ramnagar,<br>Jim Corbett, Uttarakhand,<br>India, 244715</span></li></ul></div>
+ </div></div></div>
+ <div class="footer-bottom"><div class="container"><div class="footer-bottom-inner"><p class="footer-copy">© <span class="current-year"></span> Tiger Aura Resort. All rights reserved.</p><p class="footer-addr">Chhoi Village, Ramnagar, Jim Corbett, Uttarakhand, India</p></div></div></div>
 </footer>
 <script src="js/main.js"></script>
 </body>
